@@ -22,3 +22,7 @@ void PrintArray(string[] arr){                          //Функция выв�
         Console.Write($"{arr[i]} : ");
     }
 } 
+
+string[] arr = {"wdwd2", "dwd1","0","1","123"};
+
+PrintArray(FindResultArray(arr));
