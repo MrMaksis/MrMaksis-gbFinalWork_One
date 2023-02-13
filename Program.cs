@@ -1,4 +1,5 @@
-﻿string[] FindResultArray(string[] arr)                  //Функция отбора массиива
+﻿//Функция отбора элементов массиива
+string[] FindResultArray(string[] arr)
 {
     string[] outArr = new string[arr.Length];
     int count = 0;
@@ -15,7 +16,8 @@
     return outArr;
 } 
 
-void PrintArray(string[] arr){                          //Функция вывода массива
+//Функция вывода массива
+void PrintArray(string[] arr){ 
 
     //Цикл вывода непустых элементов массива
     for(int i = 0; i < Convert.ToInt32(arr[arr.Length - 1]); i++){
