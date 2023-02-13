@@ -14,3 +14,11 @@
     outArr[outArr.Length - 1] = count.ToString();                   
     return outArr;
 } 
+
+void PrintArray(string[] arr){                          //Функция вывода массива
+
+    //Цикл вывода непустых элементов массива
+    for(int i = 0; i < Convert.ToInt32(arr[arr.Length - 1]); i++){
+        Console.Write($"{arr[i]} : ");
+    }
+} 
